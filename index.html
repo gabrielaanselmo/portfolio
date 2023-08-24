@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/assets/fav-icon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gabriela - QA</title>
     <link rel="stylesheet" href="style.css" />
@@ -38,38 +39,20 @@
       <div class="section__pic-container rotate-animation">
         <img src="./assets/profile-pic.jpg" alt="Maria Gabriela Foto de Perfil" />
       </div>
-      </div>
       <div class="section__text">
         <p class="section__text__p1">Olá, eu sou</p>
-        <h1 class="title">Maria Gabriela</h1>
+        <h1 class="title" id="typing-effect">Maria Gabriela</h1>
         <p class="section__text__p2">Analista de testes - QA</p>
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/cv.pdf')"
-          >
-            Currículo
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contato
-          </button>
+          <button class="btn btn-color-2" onclick="window.open('./assets/cv.pdf')">Currículo</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contato</button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/gabriela-anselmo/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/gabrielaanselmo'"
-          />
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/gabriela-anselmo/'" />
+          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/gabrielaanselmo'" />
         </div>
       </div>
-    </section>
+    </section>    
     <section id="about">
       <p class="section__text__p1 hidden">Saiba mais</p>
       <h1 class="title">Sobre mim</h1>
@@ -90,7 +73,7 @@
                 class="icon"
               />
               <h3>Experiência</h3>
-              <p>1+ anos <br />QA</p>
+              <p>1+ ano <br />Analista de testes</p>
             </div>
             <div class="details-container hidden">
               <img
@@ -122,22 +105,11 @@
       <div class="knowledge-details-container hidden">
         <div class="about-containers hidden">
           <div class="details-container hidden">
-            <h2 class="knowledge-sub-title hidden">Conhecimento</h2>
+            <h2 class="knowledge-sub-title hidden">Skills</h2>
             <div class="article-container hidden">
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="knowledge icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Cypress</h3>
-                  <p>Intermediário</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
+                  src="./assets/robotframework.svg"
                   alt="knowledge icon"
                   class="icon"
                 />
@@ -148,7 +120,18 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/cypress.svg"
+                  alt="knowledge icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cypress</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark-circle.svg"
                   alt="knowledge icon"
                   class="icon"
                 />
@@ -158,27 +141,29 @@
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark-circle.svg"
                   alt="knowledge icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Testes funcionais</h3>
+                  <h3>Testes manuais</h3>
+                  <p>Avançado</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark-circle.svg"
                   alt="knowledge icon"
                   class="icon"
                 />
                 <div>
                   <h3>Testes automatizados</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="./assets/checkmark-circle.svg"
                   alt="knowledge icon"
                   class="icon"
                 />

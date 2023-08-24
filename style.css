@@ -216,6 +216,36 @@ section {
   gap: 1rem;
 }
 
+/* Efeito de digitação */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#typing-effect {
+  color: #6B2682; /* Cor do título */
+  overflow: hidden;
+  border-right: 0.08em solid #000000; /* Cor do título e tamanho do cursor */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3s linear, blink-caret 0.5s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000000; /* Cor do título */
+  }
+}
+
+
 /* ICONS */
 
 .icon {
