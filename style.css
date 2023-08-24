@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color: #555555;
+  color: #525252;
 }
 
 /* TRANSITION */
@@ -46,20 +46,21 @@ nav {
 }
 
 a {
-  color: #000000;
+  color: #6B2682;
   text-decoration: none;
-  text-decoration-color: #ffffff;
+  text-decoration-color: #DC88EA;
 }
 
 a:hover {
-  color: #808080;
+  color: #DC88EA;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: #b5b5b5;
+  text-decoration-color: #6B2682;
 }
 
 .logo {
   font-size: 2rem;
+  color:#DC88EA
 }
 
 .logo:hover {
