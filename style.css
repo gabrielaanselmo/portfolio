@@ -177,6 +177,14 @@ section {
   margin: auto 0;
 }
 
+.rotate-animation {
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.rotate-animation:hover {
+  transform: scale(1.1);
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -290,6 +298,15 @@ section {
   border-radius: 2rem;
 }
 
+.about-pic {
+  border-radius: 2rem;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.about-pic:hover {
+  transform: scale(1.1);
+}
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -395,6 +412,19 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+}
+
+/* Efeito de deslizamento */
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* FOOTER - SESSÃO */
