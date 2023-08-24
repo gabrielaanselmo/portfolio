@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-cypress" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M19.48 17.007a9 9 0 1 0 -7.48 3.993c.896 0 1.691 -.573 1.974 -1.423l3.526 -10.577" />
-  <path d="M13.5 9l2 6" />
-  <path d="M10.764 9.411a3 3 0 1 0 -.023 5.19" />
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.4786 15.007C18.595 13.3395 19.1221 11.3467 18.9761 9.34531C18.8302 7.3439 18.0195 5.44869 16.6729 3.96083C15.3264 2.47296 13.5212 1.47781 11.5442 1.13349C9.56729 0.789166 7.53196 1.11544 5.76168 2.06045C3.9914 3.00547 2.58773 4.51501 1.77372 6.34922C0.959707 8.18343 0.782048 10.2371 1.26897 12.1838C1.7559 14.1306 2.87947 15.8588 4.46116 17.0937C6.04285 18.3287 7.99191 18.9997 9.99863 19C10.8946 19 11.6896 18.427 11.9726 17.577L15.4986 7.00001" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11 7L13 13" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 7.41167C8.49655 7.14516 7.92425 7.00319 7.34074 7.00005C6.75723 6.99691 6.1831 7.13272 5.67617 7.39379C5.16925 7.65487 4.74742 8.03199 4.45316 8.48719C4.15891 8.94238 4.00262 9.45958 4.00003 9.98671C3.99745 10.5138 4.14866 11.0323 4.43843 11.4898C4.72821 11.9473 5.14632 12.3278 5.65067 12.5929C6.15501 12.8581 6.72779 12.9985 7.31131 13C7.89483 13.0015 8.46849 12.8641 8.97454 12.6017" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
-
-
