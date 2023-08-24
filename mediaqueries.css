@@ -97,3 +97,53 @@
     text-align: justify;
   }
 }
+
+/* MODIFICAÇÕES PARA TELAS COMPRIDAS */
+
+@media screen and (max-width: 600px) and (min-aspect-ratio: 2/3) {
+  /* Ajuste o espaçamento vertical para elementos */
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Reduza o tamanho da fonte para melhor legibilidade */
+  .experience-sub-title {
+    font-size: 1rem;
+  }
+
+  /* Centralize os ícones e reduza o tamanho */
+  .section__pic-container {
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section__pic-container img {
+    width: 70%;
+    height: auto;
+  }
+
+  /* Ajuste o espaçamento entre os itens do menu de navegação */
+  .nav-links {
+    gap: 1rem;
+  }
+
+  /* Ajuste o tamanho da fonte dos links do menu de navegação */
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  
+  /* Ajuste o tamanho da fonte do título das seções */
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  /* Ajuste o tamanho da fonte dos textos */
+  .section__text__p2,
+  article {
+    font-size: 0.9rem;
+  }
+}
