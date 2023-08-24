@@ -388,18 +388,32 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  justify-content: center;
+  gap: 2rem;
   flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
 }
 
-article {
+.article {
+  flex: 1 1 calc(33.33% - 2rem);
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.article .icon {
+  width: 5rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.article h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.article p {
+  font-size: 1rem;
 }
 
 article .icon {
@@ -417,14 +431,34 @@ article .icon {
   background: #ffffff;
 }
 
-.project-title {
+.details-container {
+  border: #FFD8EF 0.1rem solid;
+  background: #ffffff;
+  border-radius: 1rem;
   margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-title {
   color: #6B2682;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .project-btn {
+  background-color: #FFD8EF;
   color: #6B2682;
-  border-color: #FFD8EF;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project-btn:hover {
+  background-color: #6B2682;
+  color: #FFD8EF;
 }
 
 /* CONTATOS */
@@ -439,6 +473,8 @@ article .icon {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   border-radius: 2rem;
   border: #6B2682 0.1rem solid;
   border-color: #FFD8EF;
