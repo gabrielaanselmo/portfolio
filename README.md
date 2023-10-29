@@ -1,8 +1,9 @@
-# Projeto - Portfólio 
-> Status do projeto: Finalizado.
+# Projeto: Portfólio Pessoal
+> Status do Projeto: 🟢 Finalizado  
+
+## 🚀 Visão Geral
+Bem-vindo ao meu portfólio digital! Este projeto serve como uma janela para o meu mundo criativo, destacando meus projetos, habilidades e a jornada que percorri até aqui. É uma expressão da minha paixão por design, desenvolvimento e inovação.
 
 ## 📋 Sobre o Projeto
-O projeto "Portfólio" é uma representação visual e interativa da minha jornada criativa, destacando minhas habilidades. Este portfólio digital é uma vitrine pessoal cuidadosamente projetada para compartilhar meu crescimento ao longo do tempo e demonstrar minha paixão por diferentes formas de expressão.
-![image](https://github.com/gabrielaanselmo/portfolio/assets/112910372/3ce9ec2d-f1d9-4015-ba8f-9966a4577e0a)
-url: https://gabrielaqa.netlify.app/
+O "Portfólio" é uma vitrine interativa e visualmente atraente de meu trabalho e realizações. Foi projetado para ser intuitivo e envolvente, permitindo que visitantes explorem os diferentes aspectos da minha carreira e habilidades. Cada seção é uma narrativa da minha evolução e uma demonstração do meu comprometimento com a excelência em todas as formas de expressão criativa.
 
